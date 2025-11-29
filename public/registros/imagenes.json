@@ -1,0 +1,42 @@
+{
+  "Asistencia.png": [
+    "imagenes/Asistencia.png",
+    "imagenes/Asistencia.webp",
+    "imagenes/Asistencia.avif"
+  ],
+  "Contador.png": [
+    "imagenes/Contador.png",
+    "imagenes/Contador.webp",
+    "imagenes/Contador.avif"
+  ],
+  "MisXV.png": [
+    "imagenes/MisXV.png",
+    "imagenes/MisXV.webp",
+    "imagenes/MisXV.avif"
+  ],
+  "Patron_verde.jpg": [
+    "imagenes/Patron_verde.jpg",
+    "imagenes/Patron_verde.webp",
+    "imagenes/Patron_verde.avif"
+  ],
+  "Separador.png": [
+    "imagenes/Separador.png",
+    "imagenes/Separador.webp",
+    "imagenes/Separador.avif"
+  ],
+  "Recuadro.png": [
+    "imagenes/Recuadro.png",
+    "imagenes/Recuadro.webp",
+    "imagenes/Recuadro.avif"
+  ],
+  "Regalos.png": [
+    "imagenes/Regalos.png",
+    "imagenes/Regalos.webp",
+    "imagenes/Regalos.avif"
+  ],
+  "Vestimenta.png": [
+    "imagenes/Vestimenta.png",
+    "imagenes/Vestimenta.webp",
+    "imagenes/Vestimenta.avif"
+  ]
+}
