@@ -1,7 +1,7 @@
 export const siteConfig = {
-  title: 'Next.js + Tailwind CSS + TypeScript Starter',
+  title: 'Mis XV Natalia',
   description:
-    'A starter for Next.js, Tailwind CSS, and TypeScript with Absolute Import, Seo, Link component, pre-configured with Husky',
+    'Te invitamos a mi fiesta de XV años. Acompáñame a celebrar este día tan especial; aquí encontrarás los detalles del evento y la confirmación de asistencia.',
   /** Without additional '/' on the end, e.g. https://theodorusclarence.com */
-  url: 'https://tsnext-tw.thcl.dev',
+  url: 'https://misxv-natalia.vercel.app',
 };
