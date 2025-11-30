@@ -51,9 +51,10 @@ export default function CeremoniaEvento() {
     },
   } satisfies Variants;
 
-  const gold = 'text-[#e7c26a]';
+  // ✅ Mismos colores que el dorado más intenso
+  const gold = 'text-[#FFBF2F]';
   const shadowGold =
-    '[text-shadow:0_0.25rem_1.6rem_rgba(0,0,0,0.95),0_0.1rem_0_rgba(0,0,0,0.9)]';
+    '[text-shadow:0_0.28rem_1.7rem_rgba(0,0,0,0.95),0_0.12rem_0_rgba(0,0,0,0.92),0_0_1.35rem_rgba(255,191,47,0.18)]';
   const shadowWhite =
     '[text-shadow:0_0.2rem_1.1rem_rgba(0,0,0,0.95),0_0.1rem_0_rgba(0,0,0,0.9)]';
 
@@ -67,13 +68,15 @@ export default function CeremoniaEvento() {
     'text-[2.0rem] sm:text-[2.3rem] lg:text-[2.8rem]',
     'tracking-[0.2em] uppercase',
     'font-semibold',
-    'bg-gradient-to-b from-[#f3de9b] via-[#e7c26a] to-[#b8892f]',
+    // ✅ mismo dorado intenso aplicado al botón
+    'bg-gradient-to-b from-[#FFE39B] via-[#FFBF2F] to-[#C98C10]',
     'text-[#2a1a06]',
-    'border border-[#f7e7b7]/70',
+    'border border-[#FFE7B7]/70',
     'shadow-[0_1.1rem_2.8rem_rgba(0,0,0,0.55),inset_0_0.12rem_0_rgba(255,255,255,0.55)]',
     'hover:brightness-[1.06] hover:saturate-[1.05]',
     'active:scale-[0.99] active:brightness-[0.98] transition',
-    'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#e7c26a]/70 focus-visible:ring-offset-2 focus-visible:ring-offset-black/20',
+    // ✅ ring con el dorado intenso
+    'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#FFBF2F]/70 focus-visible:ring-offset-2 focus-visible:ring-offset-black/20',
     'transform-gpu',
   ].join(' ');
 

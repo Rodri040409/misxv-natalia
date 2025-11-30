@@ -67,7 +67,7 @@ export default function Hero() {
       'md:top-[3.8rem] md:right-[5.2rem] md:bottom-[3.8rem] md:left-[5.2rem] ' +
       'lg:top-[4.2rem] lg:right-[6.0rem] lg:bottom-[4.2rem] lg:left-[6.0rem]',
 
-    recuadroTextSize: 'text-[1.8rem] sm:text-[1.8rem] md:text-[2.8rem] lg:text-[2.7rem]',
+    recuadroTextSize: 'text-[1.6rem] sm:text-[1.8rem] md:text-[2.8rem] lg:text-[2.7rem]',
     recuadroTextColor: 'text-white/95',
     recuadroFont: "font-['PlayFair_Italica']",
 
@@ -83,7 +83,7 @@ export default function Hero() {
     recuadroMaxW: 'max-w-[70rem]',
 
     recuadroText:
-      'Gracias a Dios tengo una madre a la que amo por darme la vida, y con orgullo de ser su hija hoy dejo de ser su niñita consentida, y paso a ser su princesa querida.',
+      'Madre, gracias por ser mi guía, mi fuerza y mi mayor bendición. Hoy que cumplo XV años, celebro no solo mi vida, sino todo lo que hemos recorrido juntas. Este día es tan tuyo como mío; con ilusión en el corazón, celebro mis XV años rodeada de quienes más quiero.',
   };
 
   const container = {

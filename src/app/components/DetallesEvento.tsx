@@ -10,9 +10,10 @@ export default function DetallesEvento() {
   const VP = { once: true, amount: 0.35 };
   const ease = [0.22, 1, 0.36, 1] as const;
 
-  const gold = 'text-[#e7c26a]';
+  // ✅ Dorado más intenso (mismos colores que el otro componente)
+  const gold = 'text-[#FFBF2F]';
   const shadowGold =
-    '[text-shadow:0_0.25rem_1.6rem_rgba(0,0,0,0.95),0_0.1rem_0_rgba(0,0,0,0.9)]';
+    '[text-shadow:0_0.28rem_1.7rem_rgba(0,0,0,0.95),0_0.12rem_0_rgba(0,0,0,0.92),0_0_1.35rem_rgba(255,191,47,0.18)]';
   const shadowWhite =
     '[text-shadow:0_0.2rem_1.1rem_rgba(0,0,0,0.95),0_0.1rem_0_rgba(0,0,0,0.9)]';
 
@@ -114,23 +115,39 @@ export default function DetallesEvento() {
             <div className="text-center md:text-left md:order-1 order-2">
               <motion.p
                 variants={titleV}
-                className={['text-[4.1rem] sm:text-[4.5rem] lg:text-[6.1rem]', gold, shadowGold, "font-['Hello']"].join(' ')}
+                className={[
+                  'text-[4.1rem] sm:text-[4.5rem] lg:text-[6.1rem]',
+                  gold,
+                  shadowGold,
+                  "font-['Hello']",
+                ].join(' ')}
               >
                 Sugerencia de regalos
               </motion.p>
 
               <motion.p
                 variants={titleV}
-                className={['mt-2 text-[2.2rem] sm:text-[2.8rem] lg:text-[3.6rem]', 'text-white', shadowWhite, "font-['PlayFair_Italica']"].join(' ')}
+                className={[
+                  'mt-2 text-[2.2rem] sm:text-[2.8rem] lg:text-[3.6rem]',
+                  'text-white',
+                  shadowWhite,
+                  "font-['PlayFair_Italica']",
+                ].join(' ')}
               >
                 Lluvia de sobres
               </motion.p>
 
               <motion.p
                 variants={fromLeft}
-                className={['mt-3 text-[1.45rem] sm:text-[1.75rem] lg:text-[2.05rem]', 'text-white/95', shadowWhite, "font-['Lora']"].join(' ')}
+                className={[
+                  'mt-3 text-[1.45rem] sm:text-[1.75rem] lg:text-[2.05rem]',
+                  'text-white/95',
+                  shadowWhite,
+                  "font-['Lora']",
+                ].join(' ')}
               >
-                Quiero ahorrarte tiempo y esfuerzo al elegir el regalo perfecto; si es tu elección obsequiarme algo, en el lugar del evento habrá un sobre para que puedas depositarlo y entregarlo ese día.
+                Quiero ahorrarte tiempo y esfuerzo al elegir el regalo perfecto; si es tu elección obsequiarme algo, en
+                el lugar del evento habrá un sobre para que puedas depositarlo y entregarlo ese día.
               </motion.p>
             </div>
 
