@@ -6,6 +6,7 @@ import CuentaRegresiva from './components/CuentaRegresiva';
 import DetallesEvento from './components/DetallesEvento';
 import Familiares from './components/Familiares';
 import Hero from './components/Hero';
+import MusicaFondo from './components/MusicaFondo';
 
 export default function HomePage() {
   return (
@@ -28,6 +29,7 @@ export default function HomePage() {
         className="fixed inset-0 -z-10 pointer-events-none bg-[radial-gradient(ellipse_at_center,rgba(0,0,0,0)_35%,rgba(0,0,0,0.35)_100%)]"
       />
 
+      <MusicaFondo />
       <Hero />
       <Familiares />
       <CeremoniaEvento />

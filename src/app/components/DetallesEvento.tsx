@@ -130,8 +130,7 @@ export default function DetallesEvento() {
                 variants={fromLeft}
                 className={['mt-3 text-[1.45rem] sm:text-[1.75rem] lg:text-[2.05rem]', 'text-white/95', shadowWhite, "font-['Lora']"].join(' ')}
               >
-                Quiero ahorrarte tiempo y esfuerzo al elegir el regalo perfecto, si es tu elección obsequiarme algo
-                puedes depositarlo en este sobre y entregarlo el día del evento.
+                Quiero ahorrarte tiempo y esfuerzo al elegir el regalo perfecto; si es tu elección obsequiarme algo, en el lugar del evento habrá un sobre para que puedas depositarlo y entregarlo ese día.
               </motion.p>
             </div>
 
