@@ -72,7 +72,7 @@ export default function Familiares() {
               'transform-gpu',
             ].join(' ')}
           >
-            En compañía de mis padres
+            En compañía de mi madre
           </motion.p>
 
           <div className="mt-7 sm:mt-8 lg:mt-10 space-y-3 sm:space-y-4 lg:space-y-5">
@@ -86,10 +86,10 @@ export default function Familiares() {
                 'transform-gpu',
               ].join(' ')}
             >
-              Denis Alvarado Godínez
+              Elssa Patricia Domínguez Polanco
             </motion.p>
 
-            <motion.p
+            {/* <motion.p
               variants={pop}
               className={[
                 'text-[3.25rem] md:text-[3.55rem] lg:text-[4.05rem]',
@@ -113,7 +113,7 @@ export default function Familiares() {
               ].join(' ')}
             >
               José Luis Pérez Miranda
-            </motion.p>
+            </motion.p> */}
           </div>
         </motion.div>
 
@@ -149,7 +149,7 @@ export default function Familiares() {
                 'transform-gpu',
               ].join(' ')}
             >
-              Verónica Pérez Hernández
+              Nancy Aidee Domínguez Sánchez 
             </motion.p>
 
             <motion.p
@@ -175,7 +175,7 @@ export default function Familiares() {
                 'transform-gpu',
               ].join(' ')}
             >
-              Josué Robles Lira
+              Irving Flores Polanco
             </motion.p>
           </div>
         </motion.div>

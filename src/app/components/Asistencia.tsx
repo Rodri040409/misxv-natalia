@@ -5,7 +5,7 @@ import { useMemo, useState } from 'react';
 
 export default function Asistencia() {
   const DATE_LABEL = 'sábado 13 de diciembre';
-  const PHONE_INTL = '522285062080'; // 52 + 2285062080
+  const PHONE_INTL = '522283213092'; // 52 + 2285062080
 
   const [answer, setAnswer] = useState<'si' | 'no'>('si');
 

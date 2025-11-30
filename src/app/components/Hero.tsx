@@ -83,7 +83,7 @@ export default function Hero() {
     recuadroMaxW: 'max-w-[70rem]',
 
     recuadroText:
-      'Gracias a Dios tengo unos padres a los que amo por darme la vida, y con orgullo de ser su hija hoy dejo de ser su niñita consentida, y paso a ser su princesa querida.',
+      'Gracias a Dios tengo una madre a la que amo por darme la vida, y con orgullo de ser su hija hoy dejo de ser su niñita consentida, y paso a ser su princesa querida.',
   };
 
   const container = {

@@ -74,15 +74,15 @@ export default function CeremoniaEvento() {
     'hover:brightness-[1.06] hover:saturate-[1.05]',
     'active:scale-[0.99] active:brightness-[0.98] transition',
     'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#e7c26a]/70 focus-visible:ring-offset-2 focus-visible:ring-offset-black/20',
-    'transform-gpu', // ✅ evita glitches por transform
+    'transform-gpu',
   ].join(' ');
 
-  const CEREMONIA_MAP = '#';
-  const EVENTO_MAP = '#';
+  // ✅ Links reales (Google Maps)
+  const CEREMONIA_MAP = 'https://maps.app.goo.gl/To1GQnkJ3MnUU8h77';
+  const EVENTO_MAP = 'https://maps.app.goo.gl/PjdQZWG3meXHzmZj7?g_st=iw';
 
   return (
     <section className="overflow-x-hidden px-6 sm:px-10 lg:px-16 pb-14 sm:pb-16 lg:pb-20 flex items-center justify-center">
-      {/* ✅ clip para evitar overflow temporal por animaciones */}
       <div className="w-full max-w-3xl lg:max-w-5xl text-center [clip-path:inset(0)]">
         {/* FECHA */}
         <motion.div variants={block} initial="hidden" whileInView="show" viewport={VP} className="mt-10">
@@ -143,7 +143,7 @@ export default function CeremoniaEvento() {
           <span className="h-px w-[84%] sm:w-3/4 bg-white/30 [box-shadow:0_0.7rem_1.6rem_rgba(0,0,0,0.55)]" />
         </div>
 
-        {/* EVENTO */}
+        {/* EVENTO / RECEPCIÓN */}
         <motion.div variants={block} initial="hidden" whileInView="show" viewport={VP}>
           <motion.p
             variants={titleV}
@@ -156,7 +156,7 @@ export default function CeremoniaEvento() {
               'transform-gpu',
             ].join(' ')}
           >
-            Evento
+            Recepción
           </motion.p>
 
           <div className="mt-6 sm:mt-8 space-y-4 sm:space-y-5">
@@ -164,14 +164,21 @@ export default function CeremoniaEvento() {
               variants={fromRight}
               className={`transform-gpu text-[2.4rem] md:text-[3.2rem] lg:text-[4.1rem] text-white ${shadowWhite} font-['PlayFair_Italica']`}
             >
-              Salón Victoria
+              Salón Victoria, Coatepec
             </motion.p>
 
             <motion.p
               variants={fromLeft}
               className={`transform-gpu text-[2.2rem] md:text-[2.7rem] lg:text-[3.4rem] text-white/95 ${shadowWhite} font-['PlayFair_Italica']`}
             >
-              3:00pm
+              2:00pm
+            </motion.p>
+
+            <motion.p
+              variants={fromRight}
+              className={`transform-gpu text-[2.0rem] md:text-[2.4rem] lg:text-[3.0rem] text-white/90 ${shadowWhite} font-['PlayFair_Italica']`}
+            >
+              Pedro Moreno #8
             </motion.p>
 
             <motion.a variants={popBtn} href={EVENTO_MAP} target="_blank" rel="noreferrer" className={btnClass}>
